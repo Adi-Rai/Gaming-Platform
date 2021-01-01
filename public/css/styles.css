@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    text-align: center;
+    background-image: url('../images/sitebg.jpg');
+    background-size: 100% 100%;
+}
+
+footer{
+    background-color:turquoise;
+}
+
+.flex-container{
+    margin:5% 0 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;  
+    
+}
+
+.card-img-top{
+    
+    height:300px;
+}
+
+.card{
+    
+    flex-basis: 300px;
+    background-color: ;
+    border: 3px solid;
+    border-color: black;
+    margin:2% 5%;
+}
+
+.card-title{
+    color:rgba(206, 21, 181, 0.74);
+}
+
+.card-img-top{
+    border: solid 5px;
+    border-color:rgba(206, 21, 181, 0.74);
+}
+.navbar{
+    color:rgba(206, 21, 181, 0.74);
+}
+
+.navbar-brand{
+    margin-left: 6vh;
+}
+
