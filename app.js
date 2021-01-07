@@ -20,6 +20,6 @@ app.get("/simonsays",(req,res)=>{
     res.render('simonsays');
 });
 
-app.listen(3000,(req,res)=>{
+app.listen( process.env.PORT||3000,(req,res)=>{
     console.log('server started at port 3000!');
 });
